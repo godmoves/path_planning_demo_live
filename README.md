@@ -1,7 +1,7 @@
 # Obstacle-Detection-and-Path-Planning
 
 
-#Overview
+## Overview
 
 This is the code for [this](https://youtu.be/2cQK_brSVvo) video on youtube by @sirajology .Path planning is a technique used for find the shortest path between a source and destination. Path planning ensures that navigation is done in least time and in most optimized way, saving energy and providing a optimized way of the doing task.
 
@@ -36,28 +36,26 @@ The code return a python dictionary. Format for creating dictionary is as follow
 * second element is a list of tuples having (x,y) coordinate of all grids traversed i.e all route path
 * third element of dictionary should be number of moves taken for traversal
 
-##Dependencies
+## Dependencies
 
 [Use pip to install.](https://pypi.python.org/pypi/pip)
 
-1.  Install OpenCV for Python
+1. Install OpenCV for Python
 
 	[`For Windows`](http://docs.opencv.org/3.1.0/d5/de5/tutorial_py_setup_in_windows.html)
 
 	[`For Ubuntu`](http://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/)
 
-2. 
-Install skimage (or scikit-image)
+2. Install skimage (or scikit-image)
 Open command prompt and type in:
 ```pip install scikit-image```
 
-3. 
-Install numpy 
+3. Install numpy 
 Open command prompt and type in:
 ```pip install numpy```
 
 
-#Usage
+## Usage
 
 Run `main.py` to check the results.
 You can edit the test image from main.py to see different results.
@@ -69,6 +67,6 @@ Follow the comments to undertand the code better.
 `astarsearch.py` contains the implemenatation of A* search algo. 
 `traversal.py` contains the script to traverse through the image to find objects/min path. 
 
-#Credits
+## Credits
 
 The credits for this code go to [Annirudha](https://github.com/Aniruddha-Tapas) i've merely created a wrapper to get people started.
